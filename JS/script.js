@@ -5,7 +5,7 @@ function calcular() {
   var imc = peso / (altura * altura);
   document.getElementById("result").innerHTML = `Seu IMC é: ${imc.toFixed(2)}`;
 
-  var ids = ['magreza', 'normal', 'sobrepeso', 'obesidade', 'obesidade-grave'];
+  var ids = ['magreza', 'normal', 'sobrepeso', 'obesidade', 'obesidadeGrave'];
   ids.forEach(function (id) {
     document.getElementById(id).style.color = "black";
   });
